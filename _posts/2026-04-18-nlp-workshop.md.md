@@ -1,28 +1,75 @@
 ---
-title: 'Future Blog Post'
-date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+title: 'Language Science at the Crossroads of AI, Cognition, and Society'
+date: 2024-10-31
+permalink: /posts/2024/10/nlp-mila-workshop/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - NLP
+  - cognitive science
+  - AI safety
+  - workshop
+excerpt: "Notes from Mila's three-day transatlantic workshop on NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation."
 ---
 
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+In October 2024, Mila hosted a three-day transatlantic [workshop on NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation](https://mila.quebec/sites/default/files/media-library/pdf/48431/2024scheduleworkshopeng.pdf), organized by the International Research Laboratory on Learning Systems (ILLS), a CNRS-Québec joint research structure, with support from IVADO and CNRS's Institute for Information Sciences (INS2I). In the spirit of interdisciplinary work, NLP researchers, cognitive scientists, neuroscientists, and domain practitioners came together to share their latest insights, as language science has moved at a pace that tests the field's ability to understand, evaluate, or situate its own advances.
 
+Day 1 delves into NLP on its own terms, exploring how benchmarks are constructed, what they fail to capture, and what that means for the field's claims of progress. Day 2 steps outside NLP to reflect on what these models share with the minds and brains they are so often compared to, and where the comparison breaks down. Day 3 takes us on a journey into the domains where these systems are now being deployed, and invites us to sit with the aftermath of their eventual deployment.
 
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br>
+## Day 1. NLP in the Era of Generative AI
 
+**Yoshua Bengio** opened not with a research result but an alarm. Training compute for frontier AI has roughly quadrupled per year since 2018. A recent EPFL study showed GPT-4, given a user's Facebook page, outperforms humans at text-based persuasion. In a poll of 3,000 ML researchers, roughly 40% assigned a probability above 10% to catastrophic outcomes from AGI. Bengio sketched how rogue AIs could emerge either carelessly, through a commercial race, or intentionally, and called for serious investment in safety research and democratic deliberation on questions left to a handful of CEOs.
+
+**Danilo Bzdok** situated the workshop within IVADO's R³ mission (*robust, reasoning, responsible* AI) and distinguished IVADO's ambition from standard interdisciplinary work: not AI researchers who know some biology, but *transdisciplinary* researchers who wear both hats at once.
+
+**Claire Gardent** (LORIA, CNRS) presented a decade of work on generating natural language from structured graphs across many languages, progressively moving from 21 European languages toward truly low-resource ones like Breton, Irish, and Mauritian Creole. Her recent work combines parameter-efficient fine-tuning with *phylogenetic* knowledge of language family structure as an inductive bias. Scale alone, she argued, will not solve the multilingual problem.
+
+**Philippe Langlais** (Université de Montréal) delivered a methodological audit. A benchmark for open information extraction, widely accepted by the community, turned out after careful re-annotation to be riddled with errors. When corrected, a cited conclusion reversed itself: neural extractors were not clearly better than rule-based ones. Langlais surveyed a landscape of benchmarks with similar problems, and called for collective infrastructure for benchmark documentation and systematic baselines. Without that, the field is confidently measuring the wrong things.
+
+**Golnoosh Farnadi** (McGill, Mila) developed her recent notion of *cascading disparities*. When a foundation model optimizes an aggregated loss over heterogeneous data, marginalized groups end up worse off not only on performance but on privacy, robustness, hallucination, explainability, and safety. Her diagnosis points at how loss functions are constructed (treating data as a single distribution rather than a mixture) and calls for intervention at training, not patching at output.
+
+**François Yvon** (ISIR, Sorbonne Université) made a case for an older idea: example-based machine translation. Professional translators retrieve and edit similar translations rather than rewriting from scratch, and his group has built neural systems that do the same explicitly, using Levenshtein Transformers that model translation as insertions and deletions. Recent work aligns multiple retrievals and composes them into one translation, with gains in both quality and efficiency.
+
+**David Adelani** (McGill, Mila) presented results from IrokoBench on African languages. The findings cut against the assumption that bigger is always better: on question answering, summarization, and translation for low-resource African languages, older models like AfriTeVa and mT0 sometimes outperform GPT-4. The pattern only reversed on knowledge-intensive benchmarks his team built from scratch. His closing argument: evaluation for low-resource languages must be built with the communities who will use these tools.
+
+**Siva Reddy** (McGill, Mila, ServiceNow) asked whether large models still need the inductive biases the field used to build in. His survey moved through training objectives, input formats, and architecture, and the answer shifted across levels. Next-token prediction goes further than earlier concerns about scope, negation, and ambiguity suggested. At the architectural level, however, biases still matter, sometimes by their removal. Removing causal masks or positional encodings can improve out-of-distribution performance. Scale plus data goes farther than expected; architectural choices still determine what generalizes.
+
+**Benoît Sagot** (Inria) offered a technically sharp diagnosis of *saturation* in small language models: perplexity improves, then mysteriously worsens again. His group traced the cause to rank collapse in the language-modeling head: the projection from hidden states to vocabulary logits degenerates toward rank one, dominated by token-frequency direction, and random hidden vectors become near-parallel. His group's *headless language models* remove the softmax head entirely, training last-layer representations contrastively; at modest scales they outperform headed counterparts. Understanding small models, he argued, is where academic research can still contribute.
+
+**Lili Mou** (University of Alberta, Amii) closed the day with an elegant result. Teacher forcing produces *exposure bias* (models never see their own mistakes), but designing reward functions for text is notoriously fraught. Drawing on inverse reinforcement learning, Mou showed that a language model's own logits can be interpreted as Q-values, yielding a dense, task-agnostic reward signal derived from the Bellman equation. Applied to semi-supervised learning and distillation, this induced reward outperforms alternatives, with the additional benefit that students train on their own trajectories rather than the teacher's.
+
+## Day 2. Bridging Minds: Cognitive Sciences and AI in Language Learning
+
+The second day stepped outside NLP proper and asked what these models have to do with language as humans use and acquire it, and with the brains that produce both.
+
+**Yang Xu** (University of Toronto) argued that natural language evolution optimizes a function not too different from what large language models optimize, though over a much longer timescale. His "three C's" framework (*communication*, *cognition*, and *culture*) organizes a program of empirical work. On communication, natural lexicons across domains like color and number sit near an optimal frontier trading information loss against system complexity. On cognition, humans extend word meanings ("mouse" the rodent to "mouse" the device) through a shared generative engine drawing on taxonomic, perceptual, associative, and emotional knowledge, attested both in child language development and in centuries of semantic change. On culture, large language models struggle: they reproduce Western moral norms with reasonable fidelity but fail to capture cultural variation elsewhere.
+
+**Abdellah Fourtassi** (LIS, Aix-Marseille Université) proposed NLP as a set of scalable tools for studying language development in ecologically valid settings: natural, messy environments rather than simplified lab experiments. The research program runs across three classical axes. On sensory input, a model trained on five million words of child-directed speech reaches syntactic performance approaching much larger models, suggesting the input is richer than the poverty-of-stimulus argument assumes. On cognitive biases, inducing shape bias or hierarchical bias into models and testing whether the biases confer a learning advantage lets researchers assess the *ecological validity* of inductive biases, not just their existence. On social interaction, his group quantified the learning contribution of clarification requests in child–caregiver conversations, finding a small but reproducible signal. The models, he stressed, are tools for measuring what is in the input; they are not claims about how children actually learn.
+
+**Guillaume Dumas** (Université de Montréal, Mila) opened the neuroscience session by pushing back on naïve comparisons between language models and brains. Similar outputs do not imply similar processes, and while representational similarity between LLM layers and brain regions can be striking, representation is not mechanism. His group's recent work probes the *personality traits* of large language models using the Big Five inventory, and documents a deep instability: the same prompt, with the same Persona description, yields dramatically different personality scores when the questionnaire order changes. Including chat history amplifies rather than stabilizes the variance. His caution was practical: not that LLMs *have* personalities, but that humans attribute personality to them, and systems deployed in sensitive contexts like mental health support can produce outlier behavior that users will read as a stable trait.
+
+**Benjamin Morillon** (INSERM, Marseille) presented intracranial recordings of patients listening to audiobooks, using GPT-style models to derive word-, syllable-, and phoneme-level prediction and surprise regressors. The results push back against an influential claim from the visual neuroscience literature, that predictions travel in beta oscillations while prediction errors travel in gamma. In speech processing, Morillon finds surprise encoded more prominently in *beta*, and the three frequency bands dissociate into different neural populations rather than sharing the same information. He closed with parallel work on a small in-house music model, which replicates surprise effects in auditory cortex and begins to open up polyphonic and multi-stream sequence modeling as a tool for auditory neuroscience.
+
+**Maxime Peyrard** (CNRS, LIG Grenoble) turned the lens on interpretability research itself. The field has moved from behavioral analysis, through correlational activation analysis and probing, to causal mediation analysis and circuit-based mechanistic interpretability. Each step tried to address the limitations of the one before. But even the most rigorous current framework, Peyrard argued, faces an identifiability problem. On a model as simple as an MLP trained on XOR, all existing mechanistic interpretability criteria admit *many* valid explanations: hundreds of candidate circuits, all causally consistent with the behavior. The field's formal definitions of what counts as an explanation are not yet sufficient. His suggestion: look to causal abstraction frameworks developed in physics and theoretical neuroscience, which may provide the uniqueness guarantees that current approaches lack.
+
+**Dhanya Sridhar** (Université de Montréal, Mila) closed Day 2 with a study of in-context learning through a causal lens. If a Transformer processing a context of input–output pairs is implicitly learning a task, a causally motivated inductive bias would be to force it to summarize the context into a low-dimensional *task latent* and predict only through that bottleneck. Her group built exactly that *explicit model* and tested it across regression tasks, gene-expression prediction, Raven's Progressive Matrices, and the Alchemy RL benchmark. Counterfactual analysis confirmed the explicit model reliably recovers task latents. But the hoped-for generalization gains on out-of-distribution queries did not materialize, unless the group also supplied the *ground-truth prediction function* that maps task latent and query to output. Her conclusion was cautious but constructive: next-token prediction alone does not guarantee robust generalization, and recovering task latents is not enough; the harder problem is discovering the causal mechanism that uses them.
+
+## Day 3. How Will Large Language Models Transform Society
+
+**Dilek Hakkani-Tür** (UIUC) argued that the frictionless fluency of modern LLMs is itself the problem. Confidently wrong answers (invented restaurant addresses, assumed locations, unasked clarifying questions) get trusted anyway. Her group's work, under a DARPA program, deliberately introduces *friction* into dialogue systems, and this measurably improves task completion. A central technical contribution is an *accountability model* that flags what the system may have missed, not just what it got wrong.
+
+**Mirco Ravanelli** (Concordia, Mila) surveyed the tokenization of speech for multimodal LLMs, contrasting compression tokens (from codecs like EnCodec) with semantic tokens (from self-supervised models like WavLM). His DASB benchmark systematically compares the two: semantic tokens generally win, but a significant gap remains between the best discrete representations and continuous baselines, and no universal audio tokenizer yet exists.
+
+**Roland Memisevic** (Qualcomm AI Research) defended an uncompromising end-to-end stance. His group's test bed is real-time fitness coaching: camera features stream through a 3D CNN into an autoregressive language model that learns when to speak and what to say. Building this required a custom dataset of aligned long-form video and coaching utterances. Foundation models, he suggested, may be the practical realization of Hofstadter and Lakoff's old claim that analogy sits at the heart of intelligence.
+
+**Serena Villata** (CNRS, I3S, Nice) presented a decade of computational argumentation work, applied at scale to the transcripts of every US presidential debate from 1960 to 2020. Her group identifies not just argument structures but *fallacies*: appeals to emotion, ad hominem, slippery slopes, false causal reasoning. Current LLMs handle stereotypical fallacies reasonably well but fail badly on causal-reasoning fallacies, which matter most in political discourse. She is now working on automated non-fallacious reformulations, aimed ultimately at strengthening democratic deliberation.
+
+**Jimmy Lin** (University of Waterloo) gave the workshop's most optimistic talk. Information retrieval has been making humans smarter since Sumerian cuneiform, and the current moment, he argued, is not the replacement of IR by LLMs but the long-awaited arrival of tools that let researchers work on the whole information-access pipeline. The critical bottleneck, echoing Langlais on Day 1, is evaluation; his group is organizing the TREC 2024 RAG track to address exactly that.
+
+**Saif Mohammad** (National Research Council Canada) reframed emotion recognition from a sentiment-classification problem into a window on affective science. He traced emotion research from Darwin through Ekman to Lisa Feldman Barrett's theory of constructed emotion, and presented his group's work extending the NRC Emotion Lexicon, tracking emotional arcs over time, and measuring *emotional granularity*, the finding that people whose language shows finer emotional distinctions tend to have better mental and physical health outcomes. His closing was firmly ethical: emotion recognition from text is a tool with real potential for harm, and researchers must not overclaim what their systems can do.
+
+**Frank Rudzicz** (Dalhousie) surveyed NLP in healthcare across three categories: analyzing what patients say (speech as biomarker for depression, neurodegeneration), what clinicians say (automatic scribes, ICD coding), and what researchers say (systematic reviews, pharmacovigilance). The metrics computer scientists care about (F1, ROUGE, BLEU) are not the ones clinicians care about. His recent work on *representation noising* addresses a thorny problem: fairness interventions and privacy interventions like differential privacy often harm the same marginalized groups each alone was trying to protect. The gap between research performance and clinical deployment is vast, and closing it is fundamentally a human problem, not a technical one.
+
+**Géraldine Damnati** (Orange Innovation) brought the perspective of deploying LLMs at a 100,000-person telecom. Her group has built fine-grained error annotation for conversation summarization, compared classical RAG, graph RAG, and agentic approaches on the EU AI Act itself, and confronted the multiple-choice evaluation paradox where models reason correctly but conclude incorrectly. Her closing provocation: perhaps the field needs to move past task evaluation altogether, toward something closer to *skills assessment*, the way we evaluate students in school, across multiple competence dimensions rather than single aggregate scores.
+
+## Closing
+
+The panel that closed the workshop, moderated with Aaron Courville, returned to questions that had run through all three days: the disconnect between science and what works; whether the benchmark culture produces understanding or just numbers; whether LLMs are tools for cognitive science, objects of it, or simply new artifacts that need their own psychology. No consensus was reached, and that seems right. What came through across three days and twenty-plus talks was the shape of a collective research program in which the pace of AI deployment is recognized as a problem, and in which careful, domain-specific, often unglamorous work (on benchmarks, fairness, multilinguality, clinical validity, argument quality, emotional safety) is what responsible progress actually looks like. The workshop's implicit answer to Bengio's opening alarm was not reassurance but rigor.
