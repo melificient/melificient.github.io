@@ -12,7 +12,7 @@ Researcher and data scientist in medical ML affiliated with [McGill University](
 
 PhD thesis in [Clinical and Translational Research](https://www.mcgill.ca/expmed/) (Digital Health Innovation stream) under Professor [David Buckeridge](https://mila.quebec/en/directory/david-buckeridge), exploring federated learning for respiratory surveillance as part of the federally funded [VITAL](https://geminimedicine.ca/VITAL/) initiative. 
 
-Lifelong learner with a particular interest in [IVADO's](https://ivado.ca/) initiatives. Attended all [Thematic Semesters Programs](https://ivado.ca/en/ivados-thematic-semesters-program/), currently enrolled in their [LLMOps](https://catalogue.ivado.umontreal.ca/Web/MyCatalog/ViewP?pid=DwpGfXsYFQ5dNLAWEt9mWQ%3d%3d&id=cmUf5sy%2f1hKY2HaR6U0ZJg%3d%3d) course, and attending monthly meetings of their research regroupements on [machine learning](https://ivado.ca/en/regroupements/machine-learning/) and [healthcare systems](https://ivado.ca/en/regroupements/healthcare-systems/).
+Lifelong learner with a particular interest in [IVADO's](https://ivado.ca/) initiatives. Attended all [Thematic Semesters Programs](https://ivado.ca/en/ivados-thematic-semesters-program/), currently enrolled in their [LLMOps](https://catalogue.ivado.umontreal.ca/Web/MyCatalog/ViewP?pid=DwpGfXsYFQ5dNLAWEt9mWQ%3d%3d&id=cmUf5sy%2f1hKY2HaR6U0ZJg%3d%3d) course, and participate in monthly research regroupement meetings on [machine learning](https://ivado.ca/en/regroupements/machine-learning/) and [healthcare systems](https://ivado.ca/en/regroupements/healthcare-systems/).
 
 Please reach out for any questions or collaborations. 
 
