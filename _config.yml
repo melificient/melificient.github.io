@@ -26,8 +26,8 @@ author:
   avatar           : "profile.png"
   name             : "Melissa Ouellet"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher in medical machine learning"
-  location         : "Earth"
+  bio              : "Researcher in medical ML"
+  location         : "Montreal, QC, CA"
   employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
