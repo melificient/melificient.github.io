@@ -16,9 +16,9 @@ Day 1 looks at NLP on its own terms: how benchmarks are constructed, what they f
 
 ## Day 1. NLP in the Era of Generative AI
 
-<div id="day1-video" style="position: relative; display: inline-block; max-width: 600px; cursor: pointer;" onclick="loadDay1Video()">
-  <img src="/images/mila_workshop_day1.png" alt="Watch Day 1 session" style="width: 100%; display: block; border-radius: 8px;">
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255,0,0,0.9); width: 68px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+<div id="day1-video" style="position: relative; max-width: 600px; width: 100%; padding-bottom: 56.25%; height: 0; cursor: pointer;" onclick="loadDay1Video()">
+  <img src="/images/mila_workshop_day1.png" alt="Watch Day 1 session" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255,0,0,0.9); width: 68px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; z-index: 2;">
     <div style="width: 0; height: 0; border-left: 18px solid white; border-top: 12px solid transparent; border-bottom: 12px solid transparent; margin-left: 4px;"></div>
   </div>
 </div>
@@ -26,7 +26,7 @@ Day 1 looks at NLP on its own terms: how benchmarks are constructed, what they f
 <script type="text/javascript">
 function loadDay1Video() {
   var container = document.getElementById('day1-video');
-  container.innerHTML = '<iframe width="100%" height="338" src="https://www.youtube.com/embed/J2wHTW6YMjI?start=7&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+  container.innerHTML = '<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px;" src="https://www.youtube.com/embed/J2wHTW6YMjI?start=7&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
   container.style.cursor = 'default';
 }
 </script>
