@@ -37,7 +37,7 @@ function loadDay1Video() {
 
 Responding to this requires institutions that approach research across disciplinary lines, not just alongside them. **[Danilo Bzdok](https://bzdok.lab.mcgill.ca/) (McGill, Mila)**, IVADO's Executive Director of Research Programs, frames IVADO as one such effort: an institutional bet on the [R³ mission](https://ivado.ca/en/the-r3ai-vision-toward-a-robust-reasoning-and-responsible-ai/) (*robust, reasoning, responsible* AI) and a transdisciplinary research model (dual training in AI and an application domain). It is also one of the largest of its kind in Canada, with over 300 professors and 2,000 scientists across five universities, 10 research clusters, roughly [$500M in combined funding over seven years](https://ivado.ca/en/2023/04/28/ivados-r3ai-project-gets-124-5-million-grant-from-canada-first-research-excellence-fund/0), and 50 new professors being hired under the transdisciplinary mandate.
 
-**[Claire Gardent](https://members.loria.fr/CGardent/) (LORIA, CNRS)** opens the research talks with a decade of work on generating natural language from structured graphs across many languages, progressively moving from 21 European languages toward truly low-resource ones like Breton, Irish, and Mauritian Creole. [Her recent work](https://aclanthology.org/2024.inlg-main.7/) lightly adapts a large multilingual model using *language family structure* as a guide, exploiting the fact that historically related languages share grammatical patterns. Scale alone, she argued, will not solve the multilingual problem.
+**[Claire Gardent](https://members.loria.fr/CGardent/) (LORIA, CNRS)** opens the research talks with a decade of work on generating natural language from structured graphs across many languages, progressively moving from 21 European languages toward low-resource ones like Breton, Irish, and Mauritian Creole. [Her recent work](https://aclanthology.org/2024.inlg-main.7/) lightly adapts a large multilingual model using *language family structure* as a guide, exploiting the fact that historically related languages share grammatical patterns. Scale alone, she argued, will not solve the multilingual problem.
 
 If Gardent's argument is that scale will not solve multilinguality, **[Philippe Langlais](https://www-labs.iro.umontreal.ca/~felipe/) (Université de Montréal)** offers the evaluation-side companion: even in the languages we do have data for, we may not be measuring what we think. His talk is a methodological audit. A benchmark for open information extraction, widely accepted by the community, turned out after careful re-annotation to be [riddled with errors](https://aclanthology.org/2024.findings-acl.496/), enough that published conclusions drawn from it no longer held. Langlais surveyed a landscape of benchmarks with similar problems, and called for collective infrastructure for benchmark documentation and systematic baselines.
 
@@ -55,7 +55,21 @@ The day's closing talk continues the theme of repurposing what the standard setu
 
 ## Day 2. Bridging Minds: Cognitive Sciences and AI in Language Learning
 
-The second day stepped outside NLP proper and asked what these models have to do with language as humans use and acquire it, and with the brains that produce both.
+<div id="day2-video" style="position: relative; max-width: 720px; cursor: pointer; margin-bottom: 2rem;" onclick="loadDay2Video()">
+  <img src="/images/mila_workshop_day2.png" alt="Watch Day 2 session" style="width: 100%; display: block; border-radius: 8px;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255,0,0,0.9); width: 68px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; z-index: 2;">
+    <div style="width: 0; height: 0; border-left: 18px solid white; border-top: 12px solid transparent; border-bottom: 12px solid transparent; margin-left: 4px;"></div>
+  </div>
+</div>
+<script type="text/javascript">
+function loadDay2Video() {
+  var container = document.getElementById('day2-video');
+  container.style.paddingBottom = '56.25%';
+  container.style.height = '0';
+  container.innerHTML = '<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px;" src="https://www.youtube.com/embed/MHyL6eXjn0c?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+  container.style.cursor = 'default';
+}
+</script>
 
 **Yang Xu** (University of Toronto) argued that natural language evolution optimizes a function not too different from what large language models optimize, though over a much longer timescale. His "three C's" framework (*communication*, *cognition*, and *culture*) organizes a program of empirical work. On communication, natural lexicons across domains like color and number sit near an optimal frontier trading information loss against system complexity. On cognition, humans extend word meanings ("mouse" the rodent to "mouse" the device) through a shared generative engine drawing on taxonomic, perceptual, associative, and emotional knowledge, attested both in child language development and in centuries of semantic change. On culture, large language models struggle: they reproduce Western moral norms with reasonable fidelity but fail to capture cultural variation elsewhere.
 
