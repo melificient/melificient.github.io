@@ -23,7 +23,7 @@ Day 1 looks at NLP on its own terms: how benchmarks are constructed, what they f
   </div>
 </div>
 
-<script>
+<script type="text/javascript">
 function loadDay1Video() {
   var container = document.getElementById('day1-video');
   container.innerHTML = '<iframe width="100%" height="338" src="https://www.youtube.com/embed/J2wHTW6YMjI?start=7&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
