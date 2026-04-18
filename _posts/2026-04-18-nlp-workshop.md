@@ -16,7 +16,7 @@ Day 1 looks at NLP on its own terms: how benchmarks are constructed, what they f
 
 ## Day 1. NLP in the Era of Generative AI
 
-[![Watch the Day 1 session](https://img.youtube.com/vi/J2wHTW6YMjI/0.jpg)](https://www.youtube.com/watch?v=J2wHTW6YMjI&t=7s)
+[![Watch the Day 1 session](https://img.youtube.com/vi/J2wHTW6YMjI/1.jpg)](https://www.youtube.com/watch?v=J2wHTW6YMjI&t=7s)
 
 **[Yoshua Bengio](https://mila.quebec/en/directory/yoshua-bengio) (Université de Montréal)**, founder of Mila, opens with a cautionary tale about catastrophic risk from artificial general intelligence (AGI). The trajectory he sketches is steep: [task-completion horizons](https://metr.org/time-horizons/) are compounding year over year, and [recent work](https://actu.epfl.ch/news/ai-s-new-power-of-persuasion-it-can-change-your-mi/) suggests frontier models are already approaching superhuman performance on tasks like personalized persuasion, a capability he flags as a direct threat to democratic institutions. His framing, [shared by most of his peers](https://arxiv.org/abs/2502.14870), is that rogue AIs could emerge either carelessly, through commercial or military races, or intentionally, through ideologies that would welcome human replacement. His closing is not reassurance but a call: serious investment in safety research, and democratic deliberation on questions currently being decided by a handful of CEOs.
 
