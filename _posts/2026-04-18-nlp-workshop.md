@@ -8,7 +8,7 @@ tags:
   - AI safety
   - workshop
 excerpt: "Notes from Mila's three-day transatlantic workshop on NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation."
----
+---  
 
 In October 2024, [Mila](https://mila.quebec/en) hosted a transatlantic  [workshop](https://mila.quebec/en/event/workshop-nlp-in-the-era-of-generative-ai-cognitive-sciences-and-societal-transformation)  on NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation, organized by the International Research Laboratory on Learning Systems ([ILLS](https://ottawa.office.cnrs.fr/en/research/international-laboratory-on-learning-systems-2/)), a [CNRS](https://www.cnrs.fr/fr)-Québec joint research structure, with support from [IVADO](https://ivado.ca/en/), Fonds de recherche du Québec, and CNRS's [Institute for Information Sciences](https://www.ins2i.cnrs.fr/en/cnrs-informatics). Over the course of three days, NLP researchers, cognitive scientists, neuroscientists, and domain practitioners came together to share their latest insights, at a moment when language science appears to be outpacing its ability to evaluate it.
 
