@@ -16,8 +16,6 @@ Day 1 looks at NLP on its own terms: how benchmarks are constructed, what they f
 
 ## Day 1. NLP in the Era of Generative AI
 
-## Day 1. NLP in the Era of Generative AI
-
 <div id="day1-video" style="position: relative; display: inline-block; max-width: 600px; cursor: pointer;" onclick="loadDay1Video()">
   <img src="/images/mila_workshop_day1.png" alt="Watch Day 1 session" style="width: 100%; display: block; border-radius: 8px;">
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255,0,0,0.9); width: 68px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
