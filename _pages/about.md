@@ -14,7 +14,7 @@ PhD thesis in [Clinical and Translational Research](https://www.mcgill.ca/expmed
 
 Lifelong learner with a particular interest in [IVADO's](https://ivado.ca/) initiatives. Attended all [Thematic Semesters Programs](https://ivado.ca/en/ivados-thematic-semesters-program/), currently enrolled in their [LLMOps](https://catalogue.ivado.umontreal.ca/Web/MyCatalog/ViewP?pid=DwpGfXsYFQ5dNLAWEt9mWQ%3d%3d&id=cmUf5sy%2f1hKY2HaR6U0ZJg%3d%3d) course, and participate in monthly research regroupement meetings on [machine learning](https://ivado.ca/en/regroupements/machine-learning/) and [healthcare systems](https://ivado.ca/en/regroupements/healthcare-systems/).
 
-Please reach out for any questions or collaborations. 
+Further details on educational and professional background can be found on LinkedIn page. Please reach out for any questions or collaborations. 
 
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
