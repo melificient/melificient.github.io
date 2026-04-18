@@ -10,7 +10,7 @@ redirect_from: fede
 
 Researcher in medical ML affiliated with [McGill University](https://www.mcgill.ca/), [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/), and [Hasso Plattner Institute](https://hpi.de/en/). 
 
-PhD thesis in [Clinical and Translational Research](https://www.mcgill.ca/expmed/) (Digital Health Innovation stream) under Professor [David Buckeridge](https://mila.quebec/en/directory/david-buckeridge), exploring federated learning techniques for respiratory surveillance as part of the federally funded [VITAL](https://geminimedicine.ca/VITAL/) initiative. 
+PhD thesis in [Clinical and Translational Research](https://www.mcgill.ca/expmed/) (Digital Health Innovation stream) under Professor [David Buckeridge](https://mila.quebec/en/directory/david-buckeridge), exploring federated learning for respiratory surveillance as part of the federally funded [VITAL](https://geminimedicine.ca/VITAL/) initiative. 
 
 Fellow of the [Royal Statistical Society](https://rss.org.uk/) and reviewer for [IEEE BHI](https://bhi.embs.org/), [MIE](https://efmi.org/conferences-journals/mie-confererence/), [ICIMTH](https://icimth.com/), and [MedInfo](https://imia-medinfo.org/wp/medinfo/).
 
