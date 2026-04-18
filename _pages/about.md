@@ -8,13 +8,13 @@ redirect_from: fede
   - /about.html
 ---
 
-A researcher in medical ML affiliated with [McGill University](https://www.mcgill.ca/), [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/), and [Hasso Plattner Institute](https://hpi.de/en/). PhD thesis in [Clinical and Translational Research](https://www.mcgill.ca/expmed/) (Digital Health Innovation stream) under Professor [David Buckeridge](https://mila.quebec/en/directory/david-buckeridge) explores federated learning techniques for respiratory surveillance as part of the federally funded [VITAL](https://geminimedicine.ca/VITAL/) initiative. Please reach out for any questions or collaborations. Fellow of the [Royal Statistical Society](https://rss.org.uk/) and serve as a reviewer for [IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)](https://bhi.embs.org/), [Medical Informatics Europe (MIE)](https://efmi.org/), the [International Conference on Informatics, Management and Technology in Healthcare (ICIMTH)](https://icimth.com/), and the [World Congress on Medical and Health Informatics (MedInfo)](https://imia-medinfo.org/).
+A researcher in medical ML affiliated with [McGill University](https://www.mcgill.ca/), [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/), and [Hasso Plattner Institute](https://hpi.de/en/). 
 
+PhD thesis in [Clinical and Translational Research](https://www.mcgill.ca/expmed/) (Digital Health Innovation stream) under Professor [David Buckeridge](https://mila.quebec/en/directory/david-buckeridge) explores federated learning techniques for respiratory surveillance as part of the federally funded [VITAL](https://geminimedicine.ca/VITAL/) initiative. 
 
+Fellow of the [Royal Statistical Society](https://rss.org.uk/) and serve as a reviewer for [IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)](https://bhi.embs.org/), [Medical Informatics Europe (MIE)](https://efmi.org/), the [International Conference on Informatics, Management and Technology in Healthcare (ICIMTH)](https://icimth.com/), and the [World Congress on Medical and Health Informatics (MedInfo)](https://imia-medinfo.org/).
 
-
-
-
+Please reach out for any questions or collaborations. 
 
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
