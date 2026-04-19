@@ -1,6 +1,6 @@
 ---
 title: "LLM-assisted topic modelling of Canadian COVID-19 Immunity Task Force data sharing operations"
-excerpt: "Topic modelling of 6,833 emails from the CITF Databank to characterize the operational processes of large-scale health research data sharing.<br/><img src='/images/citf-emails/fig1_pipeline.png'>"
+excerpt: "Topic modelling of 6,833 emails from the CITF Databank to characterize the operational processes of large-scale health research data sharing.<br/><img src='/images/citf-emails/fig1_pipeline.png' width='400'>"
 collection: portfolio
 date: 2026-04-11
 permalink: /portfolio/citf-emails/
