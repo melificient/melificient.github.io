@@ -10,7 +10,7 @@ tags:
 excerpt: "Notes from Mila's three-day transatlantic workshop on NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation."
 ---
 
-From October 1 to 3, 2024, Mila hosted a three-day workshop bringing together researchers from across Canada and France working on natural language processing, the branch of AI concerned with how computers handle human language. The workshop, organized by Pablo Piantanida, Jackie Chi Kit Cheung, and Frédéric Béchet, was structured around three themes: the technical foundations of language models, their connections to the cognitive and brain sciences, and their broader applications and social impacts. Recurring questions throughout the three days included how today's large language models actually work, how they compare to human language use, and what it takes to deploy them responsibly in sensitive domains.
+From October 1 to 3, 2024, [Mila](https://mila.quebec/en) hosted a three-day workshop bringing together researchers from across Canada and France via the [International Laboratory on Learning Systems](https://ottawa.office.cnrs.fr/en/research/international-laboratory-on-learning-systems-2/) working on natural language processing, the branch of AI concerned with how computers handle human language. The workshop, organized by Pablo Piantanida, Jackie Chi Kit Cheung, and Frédéric Béchet, was structured around three themes: the technical foundations of language models, their connections to the cognitive and brain sciences, and their broader applications and social impacts. Recurring questions throughout the three days included how today's large language models actually work, how they compare to human language use, and what it takes to deploy them responsibly in sensitive domains.
 
 ## Day 1
 
@@ -34,11 +34,11 @@ function loadDay1Video() {
 
 ### Yoshua Bengio (Université de Montréal, Mila): On the Risks of Increasingly Capable AI
 
-[Yoshua Bengio](https://yoshuabengio.org/en) opened the workshop with a talk on the risks that come with AI systems as they grow more capable. He argued that progress toward general-purpose AI is happening faster than many expected, and that the field has not yet developed reliable ways to ensure such systems behave in line with human values. He discussed possible failure modes, from systems that pursue goals in unintended ways to systems that could be deliberately misused, and made the case for treating AI safety as a core research priority rather than an afterthought.
+[Yoshua Bengio](https://yoshuabengio.org/en), the founder of Mila, opened the workshop with a talk on the risks that come with AI systems as they grow more capable. He argued that progress toward general-purpose AI is [happening faster than many expected](https://metr.org/time-horizons/), and that the field has not yet developed reliable ways to ensure such systems behave in line with human values. He discussed possible failure modes, from systems that pursue goals in unintended ways to systems that could be deliberately misused, and made the case for treating AI safety as a core research priority rather than an afterthought.
 
 ### Danilo Bzdok (McGill University, Mila): IVADO and the Canadian AI Ecosystem
 
-[Danilo Bzdok](https://bzdok.lab.mcgill.ca/) gave a short overview of IVADO, the Quebec-based institute that supports AI research and training, and situated the workshop within the broader Canadian AI ecosystem. He described how IVADO's programs bring together researchers across disciplines and institutions to work on questions where AI intersects with science, health, and society.
+[Danilo Bzdok](https://bzdok.lab.mcgill.ca/), IVADO's Scientific Co-Director of Research Programs and Academic Relations, gave a short overview of IVADO and its commitment to addressing these challenges through its [R3AI vision](https://ivado.ca/en/the-r3ai-vision-toward-a-robust-reasoning-and-responsible-ai/) of advancing robust, reasoning, and responsible AI. The Quebec-based institute supports AI research and training through a transdisciplinary approach that brings together researchers across disciplines and institutions to work on questions where AI intersects with science and different sectors of society.
 
 ### Claire Gardent (CNRS, LORIA): Turning Data into Text Across Many Languages
 
