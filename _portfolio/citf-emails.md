@@ -6,8 +6,8 @@ date: 2026-04-11
 permalink: /portfolio/citf-emails/
 ---
 
-**Authors:** Zachary Batist, Melissa Ouellet
-**Affiliation:** McGill University, Department of Epidemiology, Biostatistics and Occupational Health
+**Authors:** Zachary Batist, Melissa Ouellet, Sadun Khezri, Tanya Murphy, Aklil Noza, Samira Abbasgholizadeh-Rahimi, Guillaume Bourque, David Buckeridge
+**Affiliation:** McGill University, McGill Clinical and Health Informatics
 **Repository:** [github.com/zackbatist/CITF-emails](https://github.com/zackbatist/CITF-emails)
 
 ## Abstract
