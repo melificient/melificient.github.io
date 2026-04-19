@@ -42,7 +42,7 @@ function loadDay1Video() {
 
 ### Claire Gardent (CNRS, LORIA): Turning Data into Text Across Many Languages
 
-[Claire Gardent](https://members.loria.fr/CGardent/) presented work on generating readable text from structured data, for example turning a table of facts about a historical figure into a fluent biographical paragraph. Her group focuses on doing this well across many languages, not just English, which is challenging because most training data and evaluation tools are English-centric. She described methods that explicitly plan the content of the text before generating the wording, which helps the system stay faithful to the underlying data and produce text that translates well across languages.
+[Claire Gardent](https://members.loria.fr/CGardent/) started off the research talks by presenting work on generating readable text from structured data, for example turning a table of facts about a historical figure into a fluent biographical paragraph. Her group focuses on doing this well across many languages, not just English, which is challenging because most training data and evaluation tools are English-centric. She described methods that explicitly plan the content of the text before generating the wording, which helps the system stay faithful to the underlying data and produce text that translates well across languages.
 
 ### Philippe Langlais (Université de Montréal, RALI): Rethinking How We Measure Progress
 
