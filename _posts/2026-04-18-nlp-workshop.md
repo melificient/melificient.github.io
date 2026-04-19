@@ -10,7 +10,7 @@ tags:
 excerpt: "Notes from Mila's three-day transatlantic workshop on NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation."
 ---
 
-From October 1 to 3, 2024, [Mila](https://mila.quebec/en) hosted a three-day workshop bringing together researchers from Canada and France working on natural language processing. The workshop, organized as part of the [International Laboratory on Learning Systems](https://ottawa.office.cnrs.fr/en/research/international-laboratory-on-learning-systems-2/), was structured around three themes: the technical foundations of language models, their connections to the cognitive and brain sciences, and their broader applications and social impacts. Recurring questions throughout the three days included how today's large language models actually work, how they compare to human language use, and what it takes to deploy them responsibly in sensitive domains.
+From October 1 to 3, 2024, [Mila](https://mila.quebec/en) hosted a three-day workshop bringing together researchers from across Canada and France working on natural language processing. The workshop, organized as part of the [International Laboratory on Learning Systems](https://ottawa.office.cnrs.fr/en/research/international-laboratory-on-learning-systems-2/), was structured around three themes: the technical foundations of language models, their connections to the cognitive and brain sciences, and their broader applications and social impacts. Recurring questions throughout the three days included how today's large language models actually work, how they compare to human language use, and what it takes to deploy them responsibly in sensitive domains.
 
 ## Day 1
 
@@ -42,7 +42,7 @@ function loadDay1Video() {
 
 ### Claire Gardent (CNRS, LORIA): Turning Data into Text Across Many Languages
 
-[Claire Gardent](https://members.loria.fr/CGardent/) started off the research talks by presenting work on generating readable text from structured data, for example turning a table of facts about a historical figure into a fluent biographical paragraph. Her group focuses on doing this well across many languages, not just English, which is challenging because most training data and evaluation tools are English-centric. She described methods that explicitly plan the content of the text before generating the wording, which helps the system stay faithful to the underlying data and produce text that translates well across languages.
+Research talks kicked off with **[Claire Gardent](https://members.loria.fr/CGardent/)**, who presented a decade of work on generating natural language from structured graphs across many languages, progressively moving from 21 European languages toward low-resource ones like Breton, Irish, and Mauritian Creole. [Her recent research](https://aclanthology.org/2024.inlg-main.7/) adapts a large multilingual model using *language family structure* as a guide, exploiting the fact that historically related languages share grammatical patterns. Scale alone, she argued, will not solve the multilingual problem.
 
 ### Philippe Langlais (Université de Montréal, RALI): Rethinking How We Measure Progress
 
