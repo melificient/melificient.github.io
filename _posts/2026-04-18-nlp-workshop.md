@@ -7,7 +7,7 @@ tags:
   - cognitive science
   - AI safety
   - workshop
-excerpt: "Notes from Mila's three-day transatlantic workshop on NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation."
+excerpt: "Summary of Mila's three-day workshop on NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation."
 ---
 
 From October 1 to 3, 2024, [Mila](https://mila.quebec/en) hosted a three-day workshop bringing together researchers from Canada and France working on natural language processing. The workshop, organized as part of the [International Laboratory on Learning Systems](https://ottawa.office.cnrs.fr/en/research/international-laboratory-on-learning-systems-2/), was structured around three themes: the technical foundations of language models, their connections to the cognitive and brain sciences, and their broader applications and social impacts. The program addressed how current large language models operate, how they compare to human language use, and what is required to deploy them in sensitive domains.
