@@ -38,7 +38,7 @@ function loadDay1Video() {
 
 ### Danilo Bzdok (McGill University, Mila): IVADO and the Canadian AI Ecosystem
 
-[Danilo Bzdok](https://bzdok.lab.mcgill.ca/), IVADO's Scientific Co-Director of Research Programs and Academic Relations, gave a short overview of IVADO and its commitment to addressing these challenges through its [R3AI vision](https://ivado.ca/en/the-r3ai-vision-toward-a-robust-reasoning-and-responsible-ai/) of advancing robust, reasoning, and responsible AI. The Quebec-based institute supports AI research and training through a transdisciplinary approach that brings together researchers across disciplines and institutions to work on questions where AI intersects with science and different sectors of society.
+[Danilo Bzdok](https://bzdok.lab.mcgill.ca/), IVADO's Scientific Co-Director of Research Programs and Academic Relations, gave a short overview of IVADO and its commitment to addressing these challenges through its [R³AI vision](https://ivado.ca/en/the-r3ai-vision-toward-a-robust-reasoning-and-responsible-ai/) of advancing robust, reasoning, and responsible AI. The Quebec-based institute supports AI research and training through a transdisciplinary approach that brings together researchers across disciplines and institutions to work on questions where AI intersects with science and different sectors of society.
 
 ### Claire Gardent (CNRS, LORIA): Turning Data into Text Across Many Languages
 
