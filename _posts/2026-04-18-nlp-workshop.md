@@ -15,27 +15,27 @@ From October 1 to 3, 2024, [Mila](https://mila.quebec/en) hosted a three-day wor
 <details style="margin: 1rem 0; border: 1px solid #e1e4e8; border-radius: 8px; padding: 0.75rem 1rem; background: #f6f8fa; font-size: 0.85rem;">
   <summary style="cursor: pointer; font-weight: 600; padding: 0.15rem 0;">Day 1 · Technical foundations</summary>
   <ol style="padding-left: 1.25rem; margin: 0.75rem 0 0.25rem 0; line-height: 1.5;">
-    <li>Yoshua Bengio — Risks of capable AI</li>
-    <li>Danilo Bzdok — IVADO and the Canadian AI ecosystem</li>
-    <li>Claire Gardent — Data-to-text across languages</li>
-    <li>Philippe Langlais — Rethinking evaluation</li>
-    <li>Golnoosh Farnadi — Fairness in foundation models</li>
-    <li>François Yvon — Translation memories</li>
-    <li>David Adelani — LLMs for African languages</li>
-    <li>Siva Reddy — Inductive biases for LLMs</li>
-    <li>Benoît Sagot — Why small LMs struggle</li>
-    <li>Lili Mou — LLMs as reward signals</li>
+    <li>Yoshua Bengio, Université de Montréal &amp; Mila, Risks of capable AI</li>
+    <li>Danilo Bzdok, McGill University &amp; Mila, IVADO and the Canadian AI ecosystem</li>
+    <li>Claire Gardent, CNRS &amp; LORIA, Data-to-text across languages</li>
+    <li>Philippe Langlais, Université de Montréal &amp; RALI, Rethinking evaluation</li>
+    <li>Golnoosh Farnadi, McGill University &amp; Mila, Fairness in foundation models</li>
+    <li>François Yvon, CNRS &amp; ISIR, Translation memories</li>
+    <li>David Adelani, McGill University &amp; Mila, LLMs for African languages</li>
+    <li>Siva Reddy, McGill University &amp; Mila, Inductive biases for LLMs</li>
+    <li>Benoît Sagot, INRIA Almanach Paris, Why small LMs struggle</li>
+    <li>Lili Mou, University of Alberta &amp; Amii, LLMs as reward signals</li>
   </ol>
 </details>
 
 <details style="margin: 1rem 0; border: 1px solid #e1e4e8; border-radius: 8px; padding: 0.75rem 1rem; background: #f6f8fa; font-size: 0.85rem;">
   <summary style="cursor: pointer; font-weight: 600; padding: 0.15rem 0;">Day 2 · Cognition &amp; brains</summary>
   <ol style="padding-left: 1.25rem; margin: 0.75rem 0 0.25rem 0; line-height: 1.5;">
-    <li>Yang Xu — Why languages look the way they do</li>
-    <li>Abdellah Fourtassi — How children learn language</li>
-    <li>Guillaume Dumas — Brains vs. language models</li>
-    <li>Benjamin Morillon — What LMs reveal about the brain</li>
-    <li>Peyrard &amp; Sridhar — Causal models for NLP</li>
+    <li>Yang Xu, University of Toronto, Why languages look the way they do</li>
+    <li>Abdellah Fourtassi, Aix-Marseille Université, How children learn language</li>
+    <li>Guillaume Dumas, Université de Montréal &amp; Mila, Brains vs. language models</li>
+    <li>Benjamin Morillon, Aix-Marseille Université &amp; INSERM, What LMs reveal about the brain</li>
+    <li>Maxime Peyrard, CNRS Grenoble, and Dhanya Sridhar, Université de Montréal &amp; Mila, Causal models for NLP</li>
     <li>Panel discussion</li>
   </ol>
 </details>
@@ -43,13 +43,13 @@ From October 1 to 3, 2024, [Mila](https://mila.quebec/en) hosted a three-day wor
 <details style="margin: 1rem 0; border: 1px solid #e1e4e8; border-radius: 8px; padding: 0.75rem 1rem; background: #f6f8fa; font-size: 0.85rem;">
   <summary style="cursor: pointer; font-weight: 600; padding: 0.15rem 0;">Day 3 · Society &amp; applications</summary>
   <ol style="padding-left: 1.25rem; margin: 0.75rem 0 0.25rem 0; line-height: 1.5;">
-    <li>Dilek Hakkani-Tür — Friction in dialogue systems</li>
-    <li>Mirco Ravanelli — Audio for multimodal LLMs</li>
-    <li>Roland Memisevic — Situated interaction</li>
-    <li>Villata &amp; Lin — Argumentation and retrieval</li>
-    <li>Saif Mohammad — NLP for affective science</li>
-    <li>Frank Rudzicz — Language tech in healthcare</li>
-    <li>Géraldine Damnati — Real-world evaluation</li>
+    <li>Dilek Hakkani-Tür, University of Illinois Urbana-Champaign, Friction in dialogue systems</li>
+    <li>Mirco Ravanelli, Concordia University &amp; Mila, Audio for multimodal LLMs</li>
+    <li>Roland Memisevic, Qualcomm AI Research Toronto, Situated interaction</li>
+    <li>Serena Villata, CNRS i3s, and Jimmy Lin, University of Waterloo, Argumentation and retrieval</li>
+    <li>Saif Mohammad, National Research Council Canada, NLP for affective science</li>
+    <li>Frank Rudzicz, Dalhousie University, Language tech in healthcare</li>
+    <li>Géraldine Damnati, Orange Innovation, Real-world evaluation</li>
   </ol>
 </details>
 
