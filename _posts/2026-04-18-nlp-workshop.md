@@ -10,7 +10,7 @@ tags:
 excerpt: "Notes from Mila's three-day transatlantic workshop on NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation."
 ---
 
-From October 1 to 3, 2024, [Mila](https://mila.quebec/en) hosted a three-day workshop bringing together researchers from across Canada and France as part of the [International Laboratory on Learning Systems](https://ottawa.office.cnrs.fr/en/research/international-laboratory-on-learning-systems-2/) working on natural language processing. The workshop, organized by Pablo Piantanida, Jackie Chi Kit Cheung, and Frédéric Béchet, was structured around three themes: the technical foundations of language models, their connections to the cognitive and brain sciences, and their broader applications and social impacts. Recurring questions throughout the three days included how today's large language models actually work, how they compare to human language use, and what it takes to deploy them responsibly in sensitive domains.
+From October 1 to 3, 2024, [Mila](https://mila.quebec/en) hosted a three-day workshop bringing together researchers from Canada and France working on natural language processing. The workshop, organized as part of the [International Laboratory on Learning Systems](https://ottawa.office.cnrs.fr/en/research/international-laboratory-on-learning-systems-2/), was structured around three themes: the technical foundations of language models, their connections to the cognitive and brain sciences, and their broader applications and social impacts. Recurring questions throughout the three days included how today's large language models actually work, how they compare to human language use, and what it takes to deploy them responsibly in sensitive domains.
 
 ## Day 1
 
